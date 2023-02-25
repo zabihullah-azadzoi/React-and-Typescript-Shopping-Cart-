@@ -1,0 +1,41 @@
+.cart{
+     flex: 1;
+     border-bottom: 1px solid black;
+}
+
+.cartItem{
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 2rem;
+     padding: 1rem;
+     align-items: center;
+}
+
+.productImage{
+     height: 7rem;
+     width: 7rem;
+     object-fit: contain;
+}
+.selectMenu{
+     width: 4rem;
+     font-size: 1rem;
+     border-radius: 5px;
+     padding: 5px;
+}
+
+.totalsContainer{
+     display: flex;
+     flex-direction: column;
+     width: 30vw;
+     margin: 5rem 0;
+     padding: 1rem;
+}
+
+.placeOrderButton{
+     margin-top: 1rem;
+}
+
+.placeOrderMessage{
+     font-size: 2rem;
+     font-weight: bold;
+}

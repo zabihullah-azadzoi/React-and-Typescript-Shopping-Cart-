@@ -4,11 +4,14 @@ import App from "./App";
 import "./assets//index.css";
 
 import ProductContextProvider from "./context/ProductsContext";
+import CartContextProvider from "./context/CartContext";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <ProductContextProvider>
-      <App />
+      <CartContextProvider>
+        <App />
+      </CartContextProvider>
     </ProductContextProvider>
   </React.StrictMode>
 );
