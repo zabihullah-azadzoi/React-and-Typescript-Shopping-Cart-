@@ -14,7 +14,7 @@ const Footer = ({ viewCart }: { viewCart: boolean }): ReactElement => {
             <span>Total Price: {formatNumber(totalPrice)}</span>
           </>
         )}
-        <span>Shopping Cart &copy; 2022</span>
+        <span>Shopping Cart &copy; {new Date().getFullYear()}</span>
       </div>
     </footer>
   );

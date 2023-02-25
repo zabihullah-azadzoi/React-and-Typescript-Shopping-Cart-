@@ -17,7 +17,7 @@ const Product = ({ product }: ProductPropsType): ReactElement => {
 
   return (
     <div className={classes.productContainer}>
-      <h5>{product.name}</h5>
+      <h4>{product.name}</h4>
       <img
         className={classes.productImage}
         src={image1.replace("watch1", `watch${product.id}`)}
@@ -35,4 +35,8 @@ const Product = ({ product }: ProductPropsType): ReactElement => {
   );
 };
 
-export default Product;
+function reRender(prevState: ProductPropsType, nextState: ProductPropsType) {
+  return prevState.product === nextState.product;
+}
+
+export default React.memo(Product, reRender);
