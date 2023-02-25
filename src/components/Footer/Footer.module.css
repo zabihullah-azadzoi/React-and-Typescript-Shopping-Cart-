@@ -1,0 +1,4 @@
+.footerPricesContainer{
+     padding: 1rem;
+     composes: headerPricesContainer from "../Header/Header.module.css"
+}

@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Clock 1",
+      "price": 10.0
+    },
+    {
+      "id": 2,
+      "name": "Clock 2",
+      "price": 20.0
+    },
+    {
+      "id": 3,
+      "name": "Clock 3",
+      "price": 30.0
+    }
+  ]
+}

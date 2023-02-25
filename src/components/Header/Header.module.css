@@ -1,0 +1,17 @@
+.header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem;
+     border-bottom: 1px solid black;
+
+}
+.title{
+     font-weight: bold;
+     font-size: 2rem;
+     font-style: italic;
+}
+.headerPricesContainer{
+     display: flex;
+     flex-direction: column;
+}
